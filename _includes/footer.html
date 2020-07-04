@@ -1,0 +1,47 @@
+<footer class="container-fluid mt-5 text-center px-0">
+  {% unless 
+      page.name == "contact.html" or
+      page.name == "blog.html" or
+      page.collection == "posts"
+  %}
+  <section class="bg-blue-light m py-4">
+    <h2>Let’s work together</h2>
+    <a href="/contact" class="btn-gold mt-3">Get in touch</a>
+  </section>
+  {% endunless %}
+    <div class="my-4">
+      {% for item in site.data.social-links %}
+        <a href="{{ item.link }}" class="social-link mx-3" rel="noopener noreferrer" target="_blank"><span
+          class="fa fa-{{ item.fa-icon }}"></span></a>
+      {% endfor %}
+    </div>
+    <p class="lighter-gray smaller-text">Copyright &copy; {{ 'now' | date: "%Y" }}</p>
+
+</footer>
+<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+<script src="/assets/js/jquery-2.1.4.min.js"></script>
+<script defer src="/assets/js/bootstrap-native.min.js"></script>
+<script defer src="/assets/js/bootstrap.min.js"></script>
+<script>
+  function normalizeSlideHeights() {
+    $('.carousel').each(function () {
+      var items = $('.carousel-item', this);
+      // reset the height
+      items.css('min-height', 0);
+      // set the height
+      var maxHeight = Math.max.apply(null,
+        items.map(function () {
+          return $(this).outerHeight()
+        }).get());
+      items.css('min-height', maxHeight + 'px');
+    })
+  }
+
+  $(window).on(
+    'load resize orientationchange',
+    normalizeSlideHeights);
+
+  $(document).ready(function () {
+    jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 750
+  });
+</script>

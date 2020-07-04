@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <main>
+    <article class="container blog-post mt-5 mb-4"">
+      <div class="col-md-8 offset-md-2">
+        <h1 class="mt-5 mb-4">{{ page.title }}</h1>
+        <p>
+          <img src={{ page.image }} alt="{{ page.title }}">
+        </p>
+        {{ content}}
+        <footer>
+          <p class="lighter-gray smaller-text">
+            <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time><br>
+          </p>
+        </footer>
+      </div>
+    </article>
+  </main>
+  {% include footer.html %}
+</body>
+
+</html>

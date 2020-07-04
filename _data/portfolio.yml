@@ -1,0 +1,60 @@
+- heading: Copywriting and SEO
+  image: /assets/img/portfolio/copywriting-seo.jpg
+  text: >-
+    Need the right words for your website, email newsletter or direct mail
+    campaign? I work with businesses and nonprofits of all sizes to help tell
+    their brand story.
+  yoe: 15
+  media: Blogs, email, press releases, brochures, websites, ads
+  services: Copywriting, consulting, search engine optimization, ghostwriting
+  btn-text: See clips
+  link: /portfolio/copywriting-seo
+
+- heading: Social media marketing
+  image: /assets/img/portfolio/social-media-marketing.jpg
+  text: >-
+    If you don’t have time to run your social channels — keeping your content
+    fresh and responding to fans — have a social media marketing professor
+    (that’s me) take care of it for you.
+  yoe: 13
+  media: Facebook, Twitter, Instagram, LinkedIn, Pinterest, YouTube, Google My Business
+  services: Page setup, monthly content management, graphic design, reporting, consulting, influencer outreach, photography
+  btn-text: Browse my work
+  link: /portfolio/social-media-marketing
+
+- heading: Content design
+  image: /assets/img/portfolio/content-design.jpg
+  text: >-
+    Good content requires thoughtful design, whether it’s a website, newsletter
+    or drip campaign. I take an audience-first approach. My first question
+    always: what does the user need?
+  yoe: 10
+  media: Websites, newsletters, analytics dashboards, ads, presentations, email
+  services: Web content strategy, email campaign creation, newsletter design, Google Data Studio dashboard setup, presentation design
+  btn-text: View case studies
+  link: /portfolio/content-design
+
+- heading: Editing
+  image: /assets/img/portfolio/editing.jpg
+  text: >-
+    When I got a perfect verbal score on the SAT in high school, I was so proud.
+    But a few (ahem, several) years later, I can tell you that it’s not so much
+    about having the comma in the right place as making sure you’re understood.
+    As an editor, I do both.
+  yoe: 16
+  media: Web pages, print, email
+  services: Proofreading, editing, style guide creation, brand voice development
+  btn-text: See samples
+  link: /portfolio/editing
+
+- heading: Public speaking and workshops
+  image: /assets/img/portfolio/public-speaking-training.jpg
+  text: >-
+    I lead everything from small hands-on workshops to interactive presentations
+    at national conferences. No matter the size of the group, I keep my
+    audiences entertained and make sure they leave with practical takeaways.
+  yoe: 8
+  media: Conferences, webinars, consulting workshops, classes
+  services: Individual consulting, adjunct teaching, conference and workshop presentations
+  btn-text: Learn more
+  link: /portfolio/training

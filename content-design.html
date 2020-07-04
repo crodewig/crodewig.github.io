@@ -1,0 +1,60 @@
+---
+title: Content design
+h1: Content design
+permalink: /portfolio/content-design/
+---
+
+<section class="container mb-4">
+  <p>
+    What is content design? In a nutshell, it’s structuring content in a way that’s helpful for people. For me, that means handling content-rich layout design (think newsletters, dashboards, landing pages, presentations and brochures) and strategic content redesign (starting fresh with your website or CRM). Browse the case studies below — examples make things clearer, a good design principle for portfolio pages.
+  </p>
+</section>
+
+{% for item in site.data.content-design %}
+  {% assign mod2 = forloop.index | modulo: 2 %}
+
+  {% if mod2 == 1 %}
+  <section class="container-fluid pl-lg-0 bg-light-gray">
+  {% else %}
+  <section class="container-fluid pr-lg-0">
+  {% endif %}
+    <div class="row row-eq-height no-gutters">
+      {% if mod2 == 1 %}
+      <div class="col-lg-7 order-lg-2 p-4">
+      {% else %}
+      <div class="col-lg-7 offset-lg-1 p-4">
+      {% endif %}
+        <h3 class="underline pr-3 pt-4" id="{{ item.title | slugify }}">{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+        <ul>
+          {% if item.client %}
+          <li><strong>Client:</strong> {{ item.client }}</li>
+          {% endif %}
+          
+          {% if item.methodology %}
+          <li><strong>Methodology:</strong> {{ item.methodology }}</li>
+          {% endif %}
+          
+          {% if item.results %}
+          <li><strong>Results:</strong> {{ item.results }}</li>
+          {% endif %}
+          
+          {% if item.process %}
+          <li><strong>Process:</strong> {{ item.process }}</li>
+          {% endif %}
+          
+          {% if item.tools %}
+          <li><strong>Tools:</strong> {{ item.tools }}</li>
+          {% endif %}
+        </ul>
+      </div>
+      {% if mod2 == 1 %}
+      <div class="col-lg-4 order-lg-1 px-0 text-center">
+      {% else %}
+      <div class="col-lg-4 px-0 text-center">
+      {% endif %}
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/{{ item.slideshare }}" width="668" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%; min-height: 400px;" allowfullscreen> </iframe>
+      </div>
+    </div>
+  </section>
+{% endfor %}
