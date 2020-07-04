@@ -1,0 +1,135 @@
+---
+title: Blog
+h1: Blog
+
+redirect_from:
+  - /agathas/
+  - /alabama-shakespeare-garden/
+  - /amaluna/
+  - /amelies-french-bakery/
+  - /arabian-nights/
+  - /atlanta-fringe-festival/
+  - /atlanta-history-center/
+  - /bamboo-farm/
+  - /biblical-history-center/
+  - /blairsville-georgia/
+  - /bodies-exhibit-at-atlantic-station/
+  - /burlington-ontario/
+  - /callanwolde/
+  - /callaway-gardens/
+  - /callaway-in-winter/
+  - /candytopia/
+  - /chehaw/
+  - /cherry-blossom-festival/
+  - /chewacla/
+  - /chicago-gardens/
+  - /chicago/
+  - /christmas-in-paris/
+  - /cnn-studio-tour/
+  - /coca-cola/
+  - /columbia-county-ballet/
+  - /columbus-botanical-garden/
+  - /cooper-creek/
+  - /dahlonega-food/
+  - /dahlonega-waterfalls/
+  - /dahlonega/
+  - /davis-arboretum/
+  - /disney-lights/
+  - /dothan-garden/
+  - /eiffel-tower/
+  - /epcot/
+  - /eufaula/
+  - /faulkner-university/
+  - /fdr-state-park/
+  - /fernbank/
+  - /festival-of-trees-in-marietta-georgia/
+  - /florence-marina-state-park/
+  - /follow-the-shepherds-christmas/
+  - /fort-frederica/
+  - /fort-gordon/
+  - /freemans-mill-park/
+  - /futuroscope/
+  - /gainesville-garden/
+  - /gatlinburg/
+  - /georgia-aquarium/
+  - /gibbs-gardens-in-autumn/
+  - /gloatl/
+  - /great-smokies/
+  - /inman-park-dance/
+  - /jekyll-island-nature/
+  - /jekyll-island/
+  - /leu-gardens/
+  - /little-river-canyon/
+  - /london/
+  - /lookout-mountain/
+  - /lyon/
+  - /mall-of-america/
+  - /margaret-mitchell-house/
+  - /metro-atl-holiday-pop-ups/
+  - /minneapolis-saint-paul/
+  - /mirror-maze/
+  - /mont-saint-michel/
+  - /monterey/
+  - /montgomery-zoo/
+  - /nashville-tennessee-for-christmas/
+  - /noahs-ark/
+  - /oakhurst-farm/
+  - /okefenokee/
+  - /oxbow-meadows/
+  - /parco-gregoriana/
+  - /paris-on-ponce/
+  - /partnachklamm/
+  - /port-columbus/
+  - /portland-oregon/
+  - /reflection-riding/
+  - /ren-fest/
+  - /residenz/
+  - /robin-lake-beach/
+  - /rock-ranch/
+  - /sacred-heart/
+  - /san-francisco/
+  - /san-jose-rose-garden/
+  - /savannah-botanical-gardens/
+  - /schloss-nymphenburg/
+  - /silver-springs/
+  - /six-flags-white-water/
+  - /springer-opera-house/
+  - /tallulah-gorge/
+  - /toruk/
+  - /tours/
+  - /tybee-island/
+  - /unicoi/
+  - /universal-orlando/
+  - /varekai/
+  - /vaudeville-cafe/
+  - /whitewater-rafting/
+  - /wild-animal-safari/
+  - /winchester/
+  - /winter-wonderland/
+  - /zoo-atlanta/
+---
+
+<section class="container">
+  {% for post in site.posts %}
+  <a href="{{ post.url }}">
+    <div class="row slat pb-3">
+      <div class="col-lg-4 mx-auto p-0">
+        <div class="thumbnail my-auto">
+          <img class="blog-featured-img" src="{{ post.image }}" alt="{{ post.title }}">
+        </div>
+      </div>
+      <div class="col-lg-8 pl-lg-5">
+        <h2 class="pt-4">{{ post.title }}</h2>
+        <footer>
+          <p class="lighter-gray smaller-text">
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time><br>
+          </p>
+        </footer>
+        <p>
+          {{ post.excerpt | strip_html | truncatewords: 20 }}
+        </p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</section>
