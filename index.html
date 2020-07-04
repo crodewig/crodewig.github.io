@@ -1,0 +1,102 @@
+---
+title: Cheryl Rodewig, Marketer and Journalist
+h1: I'm an award-winning <br>marketer and journalist.
+description: I create meaningful stories for diverse audiences. That includes writing, social media marketing, content design, SEO and more.
+---
+
+<section class="container-fluid px-0 pt-5">
+  <div class="row px-0 mx-0">
+    <div class="col-lg-6 pr-lg-3 px-0">
+      <a href="/portfolio" class="home-nav-link"
+        style="background-image: url(assets/img/home-nav/marketing.jpg);background-position: center center; background-repeat: no-repeat; background-size: cover;">
+        <div class="home-nav-item bg-blue">
+          <h2 class="home-nav-h2 text-center">Marketing</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-6 pl-lg-3 px-0">
+      <a href="/writing" class="home-nav-link"
+        style="background-image: url(assets/img/home-nav/writing.jpg);background-position: center center; background-repeat: no-repeat; background-size: cover;">
+        <div class="home-nav-item bg-gold">
+          <h2 class="home-nav-h2 text-center">Writing</h2>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="container text-center mb-5">
+  <h2 class="underline px-4">About me</h2>
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <p>I create meaningful stories for diverse audiences. That includes writing for magazines and brands, plus all the extras that help stories get heard — from social media marketing to content design to SEO and more.</p>
+    </div>
+  </div>
+  <hr class="d-sm-none">
+</section>
+
+<section class="container text-center mb-5">
+  <h3 class="line-title sm-no-line mb-4">Brands I've worked with</h3>
+  <div class="row row-eq-height d-flex flex-wrap align-items-center mb-5">
+    {% for logo in site.data.logos %}
+    <div class="col-lg text-center h-100 mb-lg-3">
+      <a href="{{ logo.link }}" target="_blank">
+        <img class="my-3" src="{{ logo.image }}" alt="{{ logo.brand | html_escape }}">
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <hr class="d-sm-none">
+</section>
+
+<section class="container text-center">
+  <h3 class="line-title sm-no-line mb-4">Testimonials</h3>
+  <div id="testimonials-carousel" class="carousel slide text-left" data-interval="false">
+    <div class="row row-eq-height no-gutters">
+      <div class="col-1">
+        <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+          <i class="fa fa-chevron-left fa-2x gray ml-2" aria-hidden="true"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+      </div>
+      <div class="col-10">
+        <div class="carousel-inner">
+          {% for testimonial in site.data.testimonials %}
+            {% if forloop.index ==1 %}
+            <div class="carousel-item active">
+            {% else %}
+            <div class="carousel-item">
+            {% endif %}
+              <div class="row row-eq-height d-flex flex-wrap align-items-center">
+                <div class="d-none col-xl-4 d-xl-flex justify-content-center">
+                  <img src="{{ testimonial.image }}" alt="" height="150" width="150">
+                </div>
+                <div class="col-xl-8">
+                  <p class="small-text">
+                    <i class="fa fa-quote-right fa-flip-horizontal fa-3x gold" aria-hidden="true"></i>
+                    {{ testimonial.text }}
+                  </p>
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="col-xl-12">
+                  <p class="text-right small-text">
+                    <strong>{{ testimonial.name }}</strong><br>
+                    {{ testimonial.title }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-1">
+        <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+          <i class="fa fa-chevron-right fa-2x gray mr-2" aria-hidden="true"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

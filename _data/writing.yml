@@ -1,0 +1,95 @@
+- category: Travel
+  articles:
+  - title: Great Estates
+    publisher: USA Today GoEscape
+    link: https://issuu.com/studiogannett/docs/go_escape_summer_2020/80
+    image: /assets/img/writing/nemours.jpg
+
+  - title: Painted Hills
+    publisher: Korean Air’s MorningCalm
+    link: /assets/pdf/Painted-Hills_Korean-Air.pdf
+    image: /assets/img/writing/gibbs-gardens.png
+
+  - title: Your Silicon Valley Guide to Nature
+    publisher: MarketWatch
+    link: https://www.marketwatch.com/story/your-silicon-valley-guide-to-nature-and-the-outdoors-2019-07-02
+    image: /assets/img/writing/silicon-valley-guide-to-nature-and-the-outdoors.jpg
+
+  - title: How to Plan the Perfect Road Trip
+    publisher: Fodor’s
+    link: https://www.fodors.com/news/photos/how-to-plan-the-perfect-road-trip
+    image: /assets/img/writing/plan-perfect-road-trip.jpg
+
+  - title: Weirdest Roadside Attractions
+    publisher: Thrillist
+    link: https://www.thrillist.com/travel/nation/weird-roadside-attractions-strangest-road-trip-sights
+    image: /assets/img/writing/weirdest-roadside-attractions.jpeg
+
+  - title: From Paris to Atlanta with Love
+    publisher: USA Today GoEscape
+    link: https://issuu.com/studiogannett/docs/goescape_southeast_cover/42
+    image: /assets/img/writing/paris-to-atl.JPG
+
+  - title: Tour of Atlanta Temples
+    publisher: AJC
+    link: https://www.ajc.com/entertainment/attractions/tour-atlanta-temples-reveals-array-architectural-wonders/dgTHTSbNZ9mZqGHeoePZ5H/
+    image: /assets/img/writing/tour-of-atlanta-temples.JPG
+
+  - title: Botanical Gardens You Won’t Believe Are Free
+    publisher: Fodor’s
+    link: https://www.fodors.com/news/photos/stunning-botanical-gardens-you-wont-believe-are-free
+    image: /assets/img/writing/botanical-gardens.jpg
+
+  - title: 8 Waterfalls in the Middle of Town
+    publisher: Livability
+    link: https://livability.com/topics/things-to-do/8-places-with-waterfalls-right-in-the-middle-of-town
+    image: /assets/img/writing/mountour-falls.jpg
+
+  - title: Tips for Travelling with Your Partner
+    publisher: loveEXPLORING
+    link: https://www.loveexploring.com/news/69604/tips-for-travelling-with-your-partner
+    image: /assets/img/writing/travel-with-partner.jpg
+
+- category: News
+  articles:
+  - title: Florida Manatee Deaths Up 20%
+    publisher: The Guardian
+    link: https://www.theguardian.com/us-news/2020/jun/29/manatees-facing-increased-threats-during-the-pandemic
+    image: /assets/img/writing/manatee-in-guardian.png
+
+  - title: Gap Year Advice
+    publisher: Business Insider
+    link: https://www.businessinsider.com/advice-for-students-want-take-gap-year-lucky-i-didnt-2020-6
+    image: /assets/img/writing/gap-year-advice.jpeg
+
+  - title: Band Wins Inaugural Award
+    publisher: Army News
+    link: https://www.army.mil/article/75211/mcoe_ceremonial_band_wins_inaugural_award_group_named_music_performance_team_of_the_year
+    image: /assets/img/writing/band-wins-inaugural-award.jpg
+
+- category: Lifestyle
+  articles:
+  - title: The More, The Merrier
+    publisher: Modern Woman
+    link: https://issuu.com/studiogannett/docs/modern_woman_c5b4e88b5f8a74/94
+    image: /assets/img/writing/the-more-the-merrier.jpeg
+
+  - title: Pie Shops in Atlanta
+    publisher: Evening Standard
+    link: https://www.standard.co.uk/lifestyle/travel/best-pie-shops-in-atlanta-a4032996.html
+    image: /assets/img/writing/sample-of-pies-at-sway-pie-bar.jpg
+
+  - title: Keto Diet-Friendly Desserts
+    publisher: Wellness Lounge
+    link: /assets/pdf/Keto-Friendly-Desserts_by-Cheryl-Rodewig.pdf
+    image: /assets/img/writing/keto-friendly-recipes.jpg
+
+  - title: Pilau Recipe
+    publisher: Edible Orlando
+    link: /assets/pdf/Pilau_Edible-Orlando_Cheryl-Rodewig.pdf
+    image: /assets/img/writing/pilau-recipe.JPG
+
+  - title: Cirque du Soleil&#58; KURIOS
+    publisher: GA Followers
+    link: https://www.gafollowers.com/cirque-du-soleil-kurios/
+    image: /assets/img/writing/kurios.jpg
