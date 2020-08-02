@@ -13,4 +13,4 @@ I first heard about escape games in 2014 as they were starting to catch on in po
 If you’ve never heard of escape games, here’s how they work: you and your team are locked into a room for one hour. Hidden around the room are clues that will lead to your escape. If you unravel the clues successfully, you win; but if not, you’re in good company. The average escape rate worldwide is around 40%, but the majority of escape rooms in the Atlanta area are below that — meaning most of us won’t make it out.
 
 <p class="h4">Ready to play? Read my review of five north Atlanta escape games.<br>
-<a href="https://www.gafollowers.com/escape-games-real-world-adventure/" target="_blank">Escape Games: Real-World Adventure</a>
+<a href="https://www.gafollowers.com/escape-games-real-world-adventure/" rel="noopener noreferrer" rel="noopener noreferrer" target="_blank">Escape Games: Real-World Adventure</a>

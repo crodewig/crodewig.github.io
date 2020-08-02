@@ -26,7 +26,7 @@ The [Pocket Sandwich Theatre][1], meanwhile, is another gem. Despite underwhelmi
 
 <p class="h4">
 See all the ways you can go big in Dallas.
-<a href="http://www.abnsave.com/6-spots-to-visit-if-you-want-to-do-dallas-big" target="_blank">6 Spots to Visit if You Want to Do Dallas Big</a>
+<a href="http://www.abnsave.com/6-spots-to-visit-if-you-want-to-do-dallas-big" rel="noopener noreferrer" target="_blank">6 Spots to Visit if You Want to Do Dallas Big</a>
 </p>
 
 [0]: http://www.dallasarboretum.org

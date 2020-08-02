@@ -16,7 +16,7 @@ All the games I tried had good points, although some were better than others. It
 
 <p class="h4">
 Hint: I listed the games in order of preference in my review for GAFollowers.<br>
-<a href="http://www.gafollowers.com/6-atlanta-escape-room-challenges-to-try-itp" target="_blank">
+<a href="http://www.gafollowers.com/6-atlanta-escape-room-challenges-to-try-itp" rel="noopener noreferrer" target="_blank">
 6 Atlanta Escape Room Challenges to Try (ITP)
 </a>
 </p>

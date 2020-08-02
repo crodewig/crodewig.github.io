@@ -24,7 +24,7 @@ And then there are the escape games. (We love [escape games][1].) With so many r
 
 <p class="h4">
 See more of what we did in the Queen City:<br>
-<a href="http://www.abnsave.com/the-souths-best-kept-secret-charlotte-north-carolina" target="_blank">
+<a href="http://www.abnsave.com/the-souths-best-kept-secret-charlotte-north-carolina" rel="noopener noreferrer" target="_blank">
 The South’s Best Kept Secret: Charlotte, North Carolina
 </a>
 </p>

@@ -40,7 +40,7 @@ description: I create meaningful stories for diverse audiences. That includes wr
   <div class="row row-eq-height d-flex flex-wrap align-items-center mb-5">
     {% for logo in site.data.logos %}
     <div class="col-lg text-center h-100 mb-lg-3">
-      <a href="{{ logo.link }}" target="_blank">
+      <a href="{{ logo.link }}" rel="noopener noreferrer" target="_blank">
         <img class="my-3" src="{{ logo.image }}" alt="{{ logo.brand | html_escape }}">
       </a>
     </div>

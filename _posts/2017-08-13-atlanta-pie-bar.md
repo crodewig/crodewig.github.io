@@ -18,7 +18,7 @@ So naturally when I heard about Atlanta’s nightly pie bar at one of its posh d
 
 <p class="h3">
 Enjoy more pie photos and a recipe:<br>
-<a href="http://www.gafollowers.com/atlanta-pie-bar" target="_blank">
+<a href="http://www.gafollowers.com/atlanta-pie-bar" rel="noopener noreferrer" target="_blank">
 Atlanta Is Home to the Nightly Pie Bar of Your Sweetest Dreams
 </a>
 </p>

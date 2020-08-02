@@ -26,7 +26,7 @@ Thanks to the conservatory, Longwood Gardens retains its “most beautiful” st
 
 <p class="h4">
 If you plan to visit in winter, read my story for USA TODAY’s Go Escape:<br>
-<a href="https://issuu.com/studiogannett/docs/go_escape_winter/62" target="_blank">
+<a href="https://issuu.com/studiogannett/docs/go_escape_winter/62" rel="noopener noreferrer" target="_blank">
 Longing for Longwood
 </a>
 </p>

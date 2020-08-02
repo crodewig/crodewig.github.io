@@ -40,7 +40,7 @@ Along with the gardens, both plantations have historic structures you can tour a
 
 <p class="h4">
 Get the checklist for what to see if you’re short on time:<br>
-<a href="https://www.abnsave.com/blog/travel/the-best-of-south-carolina-4-must-see-sights-for-charleston-charm/" target="_blank">The Best of South Carolina: 4 Must-See Sights for Charleston Charm</a>
+<a href="https://www.abnsave.com/blog/travel/the-best-of-south-carolina-4-must-see-sights-for-charleston-charm/" rel="noopener noreferrer" target="_blank">The Best of South Carolina: 4 Must-See Sights for Charleston Charm</a>
 </p>
 
 [0]: https://www.middletonplace.org
