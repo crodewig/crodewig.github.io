@@ -14,42 +14,38 @@ description: In nearly 15 years of content management experience, I've held a nu
 
 {% for item in site.data.portfolio %}
   {% assign mod2 = forloop.index | modulo: 2 %}
+
   {% if mod2 == 1 %}
-    <section class="container-fluid pl-lg-0 bg-light-gray">
-      <div class="row row-eq-height no-gutters">
-        <div class="col-lg-4 px-0">
-          <img src="{{ item.image }}" class="w-100 h-100" style="object-fit: cover;">
-        </div>
-        <div class="col-lg-7 p-4">
-          <h3 class="underline pr-3 pt-4">{{ item.heading }}</h3>
-          <p>{{ item.text }}</p>
-          <ul>
-            <li><strong>Years of experience:</strong> {{ item.yoe }}</li>
-            <li><strong>Media:</strong> {{ item.media }}</li>
-            <li><strong>Services:</strong> {{ item.services }}</li>
-          </ul>
-          <p class="text-center text-lg-left"><a href="{{ item.btn-link }}" class="btn">{{ item.btn-text }}</a></p>
-        </div>
-      </div>
-    </section>
+  <section class="container-fluid pl-lg-0 bg-light-gray">
   {% else %}
-    <section class="container-fluid pr-lg-0">
-      <div class="row row-eq-height no-gutters">
-        <div class="col-lg-4 px-0 order-lg-2">
-          <img src="{{ item.image }}" class="w-100 h-100" style="object-fit: cover;">
-        </div>
-        <div class="col-lg-7 offset-lg-1 order-lg-1 p-4">
-          <h3 class="underline pr-3 pt-4">{{ item.heading }}</h3>
-          <p>{{ item.text }}</p>
-          <ul>
-            <li><strong>Years of experience:</strong> {{ item.yoe }}</li>
-            <li><strong>Media:</strong> {{ item.media }}</li>
-            <li><strong>Services:</strong> {{ item.services }}
-            </li>
-          </ul>
-          <p class="text-center text-lg-left"><a href="/portfolio/social-media-marketing" class="btn">Browse my work</a></p>
-        </div>
-      </div>
-    </section>
+  <section class="container-fluid pr-lg-0">
   {% endif %}
+
+    <div class="row row-eq-height no-gutters">
+
+      {% if mod2 == 1 %}
+      <div class="col-lg-4 px-0">
+      {% else %}
+      <div class="col-lg-4 px-0 order-lg-2">
+      {% endif %}
+        <img src="{{ item.image }}" class="w-100 h-100" style="object-fit: cover;">
+      
+      </div>
+      {% if mod2 == 1 %}
+      <div class="col-lg-7 p-4">
+      {% else %}
+      <div class="col-lg-7 offset-lg-1 order-lg-1 p-4">
+      {% endif %}
+      
+        <h3 class="underline pr-3 pt-4">{{ item.heading }}</h3>
+        <p>{{ item.text }}</p>
+        <ul>
+          <li><strong>Years of experience:</strong> {{ item.yoe }}</li>
+          <li><strong>Media:</strong> {{ item.media }}</li>
+          <li><strong>Services:</strong> {{ item.services }}</li>
+        </ul>
+        <p class="text-center text-lg-left"><a href="{{ item.btn-link }}" class="btn">{{ item.btn-text }}</a></p>
+      </div>
+    </div>
+  </section>
 {% endfor %}
