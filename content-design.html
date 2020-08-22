@@ -10,53 +10,73 @@ permalink: /portfolio/content-design/
   </p>
 </section>
 
-<section class="container-fluid pl-lg-0 bg-light-gray">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-7 order-lg-2 p-4">
-      <h3 class="underline pr-3 pt-4" id="web-content-redesign">Web Content Redesign</h3>
-      <p>I hired and collaborated with a web developer to redesign the KSU CPE website. During this process, I identified key user problems, developed content solutions to address them, conducted UX testing, and managed the project, from inception to launch.</p>
-      <ul>
-        <li><strong>Client:</strong> Kennesaw State University</li>
-        <li><strong>Methodology:</strong> Card sort, usability testing, research, accessibility optimization</li>
-        <li><strong>Results:</strong> 14% higher conversion rate, 8% lower bounce rate, 14% longer spent on site</li>
-      </ul>
-    </div>
-    <div class="col-lg-4 order-lg-1 px-0 text-center">
-      <iframe src="//www.slideshare.net/slideshow/embed_code/key/EVQ0twpBiu7m3r" width="668" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%; min-height: 400px;" allowfullscreen> </iframe>
-    </div>
-  </div>
-</section>
+{% for item in site.data.content-design %}
+  {% assign mod2 = forloop.index | modulo: 2 %}
+  {% if mod2 == 1 %}
+    <section class="container-fluid pl-lg-0 bg-light-gray">
+      <div class="row row-eq-height no-gutters">
+        <div class="col-lg-7 order-lg-2 p-4">
+          <h3 class="underline pr-3 pt-4" id="{{ item.title | slugify }}">{{ item.title }}</h3>
+          <p>{{ item.text }}</p>
+          <ul>
+            {% if item.client %}
+            <li><strong>Client:</strong> {{ item.client }}</li>
+            {% endif %}
+            
+            {% if item.methodology %}
+            <li><strong>Methodology:</strong> {{ item.methodology }}</li>
+            {% endif %}
+            
+            {% if item.results %}
+            <li><strong>Results:</strong> {{ item.results }}</li>
+            {% endif %}
+            
+            {% if item.process %}
+            <li><strong>Process:</strong> {{ item.process }}</li>
+            {% endif %}
+            
+            {% if item.tools %}
+            <li><strong>Tools:</strong> {{ item.tools }}</li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-lg-4 order-lg-1 px-0 text-center">
+          <iframe src="//www.slideshare.net/slideshow/embed_code/key/{{ item.slideshare }}" width="668" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%; min-height: 400px;" allowfullscreen> </iframe>
+        </div>
+      </div>
+    </section>
+  {% else %}
+    <section class="container-fluid pr-lg-0">
+      <div class="row row-eq-height no-gutters">
+        <div class="col-lg-7 offset-lg-1 p-4">
+          <h3 class="underline pr-3 pt-4" id="{{ item.title | slugify }}">{{ item.title }}</h3>
+          <p>{{ item.text }}</p>
+          <ul>
+            {% if item.client %}
+            <li><strong>Client:</strong> {{ item.client }}</li>
+            {% endif %}
 
-<section class="container-fluid pr-lg-0">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-7 offset-lg-1 p-4">
-      <h3 class="underline pr-3 pt-4" id="analytics-dashboard-setup">Analytics Dashboard Setup</h3>
-      <p>I love helping small businesses understand how their marketing is working. For this project, I worked with a local company to give them practical insight into their customers via an easy-to-use dashboard.</p>
-      <ul>
-        <li><strong>Client:</strong> The Escapery</li>
-        <li><strong>Process:</strong> Client interview, dashboard creation, recommendations report</li>
-        <li><strong>Tools:</strong> WordPress, Bookeo, Google Analytics, Google Data Studio</li>
-      </ul>
-    </div>
-    <div class="col-lg-4 px-0 text-center">
-      <iframe src="//www.slideshare.net/slideshow/embed_code/key/gDTcujxAL0xjyd" width="668" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%; min-height: 400px;" allowfullscreen> </iframe>
-    </div>
-  </div>
-</section>
+            {% if item.methodology %}
+            <li><strong>Methodology:</strong> {{ item.methodology }}</li>
+            {% endif %}
 
-<section class="container-fluid pl-lg-0 bg-light-gray">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-7 order-lg-2 p-4">
-      <h3 class="underline pr-3 pt-4" id="newsletter-design">Newsletter design</h3>
-      <p>Readers want to find the info they need at a glance. For this redesign, I focused on chunked content so people can skim — and I kept the layout clean, open and vibrant so they’d want to stay.</p>
-      <ul>
-        <li><strong>Client:</strong> Columbus Botanical Garden</li>
-        <li><strong>Process:</strong> Client interview, template mockup, revisions, final newsletter creation</li>
-        <li><strong>Tools:</strong> Adobe InDesign, Adobe Photoshop</li>
-      </ul>
-    </div>
-    <div class="col-lg-4 order-lg-1 px-0 text-center">
-      <iframe src="//www.slideshare.net/slideshow/embed_code/key/3sDpaqpx6mDjs9" width="668" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%; min-height: 400px;" allowfullscreen> </iframe>
-    </div>
-  </div>
-</section>
+            {% if item.results %}
+            <li><strong>Results:</strong> {{ item.results }}</li>
+            {% endif %}
+
+            {% if item.process %}
+            <li><strong>Process:</strong> {{ item.process }}</li>
+            {% endif %}
+
+            {% if item.tools %}
+            <li><strong>Tools:</strong> {{ item.tools }}</li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-lg-4 px-0 text-center">
+          <iframe src="//www.slideshare.net/slideshow/embed_code/key/{{ item.slideshare }}" width="668" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%; min-height: 400px;" allowfullscreen> </iframe>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
