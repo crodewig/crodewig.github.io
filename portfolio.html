@@ -12,101 +12,44 @@ description: In nearly 15 years of content management experience, I've held a nu
   </p>
 </section>
 
-<section class="container-fluid pl-lg-0 bg-light-gray">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-4 px-0">
-      <img src="/assets/img/portfolio/copywriting-seo.jpg" class="w-100 h-100" style="object-fit: cover;">
-    </div>
-    <div class="col-lg-7 p-4">
-      <h3 class="underline pr-3 pt-4">Copywriting and SEO</h3>
-      <p>Need the right words for your website, email newsletter or direct mail campaign? I work with businesses and
-        nonprofits of all sizes to help tell their brand story.</p>
-      <ul>
-        <li><strong>Years of experience:</strong> 12</li>
-        <li><strong>Media:</strong> Blogs, email, press releases, brochures, websites, ads</li>
-        <li><strong>Services:</strong> Copywriting, consulting, search engine optimization, ghostwriting</li>
-      </ul>
-      <p class="text-center text-lg-left"><a href="/portfolio/copywriting-seo" class="btn">See clips</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid pr-lg-0">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-4 px-0 order-lg-2">
-      <img src="/assets/img/portfolio/social-media-marketing.jpg" class="w-100 h-100" style="object-fit: cover;">
-    </div>
-    <div class="col-lg-7 offset-lg-1 order-lg-1 p-4">
-      <h3 class="underline pr-3 pt-4">Social media marketing</h3>
-      <p>If you don’t have time to run your social channels — keeping your content fresh and responding to fans — have a
-        social media marketing professor (that’s me) take care of it for you.</p>
-      <ul>
-        <li><strong>Years of experience:</strong> 11</li>
-        <li><strong>Media:</strong> Facebook, Twitter, Instagram, LinkedIn, Pinterest, YouTube, Google My Business</li>
-        <li><strong>Services:</strong> Page setup, monthly content management, graphic design, reporting, consulting, influencer outreach, photography
-        </li>
-      </ul>
-      <p class="text-center text-lg-left"><a href="/portfolio/social-media-marketing" class="btn">Browse my work</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid pl-lg-0 bg-light-gray">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-4 px-0">
-      <img src="/assets/img/portfolio/content-design.jpg" class="w-100 h-100" style="object-fit: cover;">
-    </div>
-    <div class="col-lg-7 p-4">
-      <h3 class="underline pr-3 pt-4">Content design</h3>
-      <p>Good content requires thoughtful design, whether it’s a website, newsletter or drip campaign. I take an
-        audience-first approach. My first question always: what does the user need?</p>
-      <ul>
-        <li><strong>Years of experience:</strong> 7</li>
-        <li><strong>Media:</strong> Websites, newsletters, analytics dashboards, ads, presentations, email</li>
-        <li><strong>Services:</strong> Web content strategy, email campaign creation, newsletter design, Google Data
-          Studio dashboard setup, presentation design</li>
-      </ul>
-      <p class="text-center text-lg-left"><a href="/portfolio/content-design" class="btn">View case studies</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid pr-lg-0">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-4 px-0 order-lg-2">
-      <img src="/assets/img/portfolio/editing.jpg" class="w-100 h-100" style="object-fit: cover;">
-    </div>
-    <div class="col-lg-7 offset-lg-1 order-lg-1 p-4">
-      <h3 class="underline pr-3 pt-4">Editing</h3>
-      <p>When I got a perfect verbal score on the SAT in high school, I was so proud. But a few (ahem, several) years
-        later, I can tell you that it’s not so much about having the comma in the right place as making sure you’re
-        understood. As an editor, I do both.</p>
-      <ul>
-        <li><strong>Years of experience:</strong> 13</li>
-        <li><strong>Media:</strong> Web pages, print, email</li>
-        <li><strong>Services:</strong> Proofreading, editing, style guide creation, brand voice development</li>
-      </ul>
-      <p class="text-center text-lg-left"><a href="/portfolio/editing" class="btn">See samples</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid pl-lg-0 bg-light-gray">
-  <div class="row row-eq-height no-gutters">
-    <div class="col-lg-4 px-0">
-      <img src="/assets/img/portfolio/public-speaking-training.jpg" class="w-100 h-100" style="object-fit: cover;">
-    </div>
-    <div class="col-lg-7 p-4">
-      <h3 class="underline pr-3 pt-4">Public speaking and workshops</h3>
-      <p>I lead everything from small hands-on workshops to interactive presentations at national conferences. No matter
-        the size of the group, I keep my audiences entertained and make sure they leave with practical takeaways.</p>
-      <ul>
-        <li><strong>Years of experience:</strong> 6</li>
-        <li><strong>Media:</strong> Conferences, webinars, consulting workshops, classes</li>
-        <li><strong>Services:</strong> Individual consulting, adjunct teaching, conference and workshop presentations
-        </li>
-      </ul>
-      <p class="text-center text-lg-left"><a href="/portfolio/training" class="btn">Learn more</a></p>
-    </div>
-  </div>
-</section>
+{% for item in site.data.portfolio %}
+  {% assign mod2 = forloop.index | modulo: 2 %}
+  {% if mod2 == 1 %}
+    <section class="container-fluid pl-lg-0 bg-light-gray">
+      <div class="row row-eq-height no-gutters">
+        <div class="col-lg-4 px-0">
+          <img src="{{ item.image }}" class="w-100 h-100" style="object-fit: cover;">
+        </div>
+        <div class="col-lg-7 p-4">
+          <h3 class="underline pr-3 pt-4">{{ item.heading }}</h3>
+          <p>{{ item.text }}</p>
+          <ul>
+            <li><strong>Years of experience:</strong> {{ item.yoe }}</li>
+            <li><strong>Media:</strong> {{ item.media }}</li>
+            <li><strong>Services:</strong> {{ item.services }}</li>
+          </ul>
+          <p class="text-center text-lg-left"><a href="{{ item.btn-link }}" class="btn">{{ item.btn-text }}</a></p>
+        </div>
+      </div>
+    </section>
+  {% else %}
+    <section class="container-fluid pr-lg-0">
+      <div class="row row-eq-height no-gutters">
+        <div class="col-lg-4 px-0 order-lg-2">
+          <img src="{{ item.image }}" class="w-100 h-100" style="object-fit: cover;">
+        </div>
+        <div class="col-lg-7 offset-lg-1 order-lg-1 p-4">
+          <h3 class="underline pr-3 pt-4">{{ item.heading }}</h3>
+          <p>{{ item.text }}</p>
+          <ul>
+            <li><strong>Years of experience:</strong> {{ item.yoe }}</li>
+            <li><strong>Media:</strong> {{ item.media }}</li>
+            <li><strong>Services:</strong> {{ item.services }}
+            </li>
+          </ul>
+          <p class="text-center text-lg-left"><a href="/portfolio/social-media-marketing" class="btn">Browse my work</a></p>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
