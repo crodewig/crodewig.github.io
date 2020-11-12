@@ -14,7 +14,7 @@
   link: https://www.iexplore.com/experiences/luxury-travel/luxury-san-francisco-hotel-fairmont
 
 - client: ExperienceFirst
-  category: Search optimized blog post
+  category: SEO blog post
   image: /assets/img/copywriting-seo/8-reasons-the-luxembourg-gardens-are-the-most-beautiful-in-paris.jpg
   link: https://www.exp1.com/blog/8-reasons-the-luxembourg-gardens-are-the-most-beautiful-in-paris/
 
@@ -47,6 +47,11 @@
   category: Branded content
   image: /assets/img/copywriting-seo/state-fair.jpg
   link: https://www.hertz.com/blog/travel/things-to-do/enjoy-a-southern-tradition-by-heading-to-a-state-fair
+
+- client: Swoogo
+  category: SaaS blog
+  image: /assets/img/copywriting-seo/swoogo-ice-breakers.jpg
+  link: https://get.swoogo.com/unconventional/17-virtual-ice-breakers-for-large-groups-and-conferences-that-dont-suck
 
 - client: Kennesaw State University
   category: Email
