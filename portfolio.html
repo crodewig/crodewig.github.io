@@ -28,8 +28,7 @@ description: In nearly 15 years of content management experience, I've held a nu
       {% else %}
       <div class="col-lg-4 px-0 order-lg-2">
       {% endif %}
-        <img src="{{ item.image }}" class="w-100 h-100" style="object-fit: cover;">
-      
+        <a href="{{ item.link }}"><img src="{{ item.image }}" class="w-100 h-100" style="object-fit: cover;"></a>
       </div>
       {% if mod2 == 1 %}
       <div class="col-lg-7 p-4">
@@ -44,7 +43,7 @@ description: In nearly 15 years of content management experience, I've held a nu
           <li><strong>Media:</strong> {{ item.media }}</li>
           <li><strong>Services:</strong> {{ item.services }}</li>
         </ul>
-        <p class="text-center text-lg-left"><a href="{{ item.btn-link }}" class="btn">{{ item.btn-text }}</a></p>
+        <p class="text-center text-lg-left"><a href="{{ item.link }}" class="btn">{{ item.btn-text }}</a></p>
       </div>
     </div>
   </section>

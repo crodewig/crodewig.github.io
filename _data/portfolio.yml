@@ -8,7 +8,7 @@
   media: Blogs, email, press releases, brochures, websites, ads
   services: Copywriting, consulting, search engine optimization, ghostwriting
   btn-text: See clips
-  btn-link: /portfolio/copywriting-seo
+  link: /portfolio/copywriting-seo
 
 - heading: Social media marketing
   image: /assets/img/portfolio/social-media-marketing.jpg
@@ -20,7 +20,7 @@
   media: Facebook, Twitter, Instagram, LinkedIn, Pinterest, YouTube, Google My Business
   services: Page setup, monthly content management, graphic design, reporting, consulting, influencer outreach, photography
   btn-text: Browse my work
-  btn-link: /portfolio/social-media-marketing
+  link: /portfolio/social-media-marketing
 
 - heading: Content design
   image: /assets/img/portfolio/content-design.jpg
@@ -32,7 +32,7 @@
   media: Websites, newsletters, analytics dashboards, ads, presentations, email
   services: Web content strategy, email campaign creation, newsletter design, Google Data Studio dashboard setup, presentation design
   btn-text: View case studies
-  btn-link: /portfolio/content-design
+  link: /portfolio/content-design
 
 - heading: Editing
   image: /assets/img/portfolio/editing.jpg
@@ -45,7 +45,7 @@
   media: Web pages, print, email
   services: Proofreading, editing, style guide creation, brand voice development
   btn-text: See samples
-  btn-link: /portfolio/editing
+  link: /portfolio/editing
 
 - heading: Public speaking and workshops
   image: /assets/img/portfolio/public-speaking-training.jpg
@@ -57,4 +57,4 @@
   media: Conferences, webinars, consulting workshops, classes
   services: Individual consulting, adjunct teaching, conference and workshop presentations
   btn-text: Learn more
-  btn-link: /portfolio/training
+  link: /portfolio/training
