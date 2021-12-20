@@ -28,6 +28,11 @@
   image: /assets/img/copywriting-seo/8-reasons-the-luxembourg-gardens-are-the-most-beautiful-in-paris.jpg
   link: https://www.exp1.com/blog/8-reasons-the-luxembourg-gardens-are-the-most-beautiful-in-paris/
 
+- client: ldomoo
+  category: Ebook
+  image: /assets/img/copywriting-seo/gaming-ebook.jpg
+  link: /assets/pdf/gaming-ebook.pdf
+
 - client: Dollar
   category: Branded content
   image: /assets/img/copywriting-seo/5-places-history-buffs-should-visit-atlanta.jpg
@@ -37,6 +42,11 @@
   category: Press release
   image: /assets/img/copywriting-seo/garden-gala-press-release.jpg
   link: /assets/pdf/garden-gala-press-release.pdf
+
+- client: Insurance Thought Leadership
+  category: Ghostwriting
+  image: /assets/img/copywriting-seo/insurance-thought-leadership.jpg
+  link: https://www.insurancethoughtleadership.com/the-new-mandate-video-or-vanish/
 
 - client: Studio Bungee
   category: Magazine advertorial
@@ -67,3 +77,8 @@
   category: Partner hotel profile
   image: /assets/img/copywriting-seo/st-louis-union-station.jpg
   link: https://web.archive.org/web/20160425123336/http://www.abnsave.com/hotel-review-st-louis-union-station-missouri
+
+- client: ldomoo
+  category: Marketing whitepaper
+  image: /assets/img/copywriting-seo/personalization-whitepaper.jpg
+  link: /assets/pdf/personalization-whitepaper.pdf
