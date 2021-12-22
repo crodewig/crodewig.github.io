@@ -581,6 +581,11 @@ textarea {
   font-size: 1em;
 }
 
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
+
 
 /*----------------------------------------*/
 /* Media queries
