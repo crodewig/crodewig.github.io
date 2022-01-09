@@ -5,10 +5,10 @@
     link: https://issuu.com/studiogannett/docs/go_escape_summer_2020/80
     image: /assets/img/writing/great-estates-go-escape.jpg
 
-  - title: Florida Gardens
+  - title: Solo Group Travel
     publisher: AARP
-    link: https://www.aarp.org/travel/vacation-ideas/outdoors/info-2021/gardens-in-florida.html
-    image: /assets/img/writing/top-12-florida-gardens.jpg
+    link: https://www.aarp.org/travel/travel-tips/safety/info-2021/solo-group-tours-gain-popularity.html
+    image: /assets/img/writing/solo-travelers-groups.jpg
 
   - title: Gentle Winter
     publisher: Country Magazine
@@ -20,7 +20,7 @@
     link: /assets/pdf/Painted-Hills_Korean-Air.pdf
     image: /assets/img/writing/gibbs-gardens.png
 
-  - title: Your Silicon Valley Guide to Nature
+  - title: Silicon Valley Guide to Nature
     publisher: MarketWatch
     link: https://www.marketwatch.com/story/your-silicon-valley-guide-to-nature-and-the-outdoors-2019-07-02
     image: /assets/img/writing/silicon-valley-guide-to-nature.jpg
@@ -29,6 +29,11 @@
     publisher: Fodor’s
     link: https://www.fodors.com/news/photos/how-to-plan-the-perfect-road-trip
     image: /assets/img/writing/plan-perfect-road-trip.jpg
+
+  - title: America's Castles
+    publisher: SmarterTravel
+    link: https://www.smartertravel.com/americas-most-extravagant-castles-and-villas/
+    image: /assets/img/writing/americas-castle.jpg
 
   - title: Georgia's Secret Fairy Garden
     publisher: Roadtrippers Magazine
@@ -40,7 +45,7 @@
     link: https://www.tripsavvy.com/best-small-towns-in-florida-5084355
     image: /assets/img/writing/best-small-towns-fl.jpg
 
-  - title: Weirdest Roadside Attractions
+  - title: Weird Roadside Attractions
     publisher: Thrillist
     link: https://www.thrillist.com/travel/nation/weird-roadside-attractions-strangest-road-trip-sights
     image: /assets/img/writing/weirdest-roadside-attractions.jpeg
@@ -74,6 +79,11 @@
     publisher: loveEXPLORING
     link: https://www.loveexploring.com/news/69604/tips-for-travelling-with-your-partner
     image: /assets/img/writing/travel-with-partner.jpg
+
+  - title: Florida Gardens
+    publisher: AARP
+    link: https://www.aarp.org/travel/vacation-ideas/outdoors/info-2021/gardens-in-florida.html
+    image: /assets/img/writing/top-12-florida-gardens.jpg
 
 - category: News
   articles:
@@ -113,6 +123,11 @@
     publisher: Wellness Lounge
     link: /assets/pdf/Keto-Friendly-Desserts_by-Cheryl-Rodewig.pdf
     image: /assets/img/writing/keto-friendly-recipes.jpg
+
+  - title: Why Tampa Is a Best Place To Live
+    publisher: Livability
+    link: https://livability.com/fl/tampa/where-to-live-now/why-tampa-fl-is-a-top-100-best-place-to-live/
+    image: /assets/img/writing/tampa-best-place-to-live.jpg
 
   - title: Maple Roots
     publisher: Blue Ridge Country Magazine
