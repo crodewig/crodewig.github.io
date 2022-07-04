@@ -1,160 +1,160 @@
 - category: Travel
   articles:
-  - title: Great Estates
-    publisher: USA Today GoEscape
-    link: https://issuu.com/studiogannett/docs/go_escape_summer_2020/80
-    image: /assets/img/writing/great-estates-go-escape.jpg
+    - title: Great Estates
+      publisher: USA Today GoEscape
+      link: https://issuu.com/studiogannett/docs/go_escape_summer_2020/80
+      image: /assets/img/writing/great-estates-go-escape.jpg
 
-  - title: Solo Group Travel
-    publisher: AARP
-    link: https://www.aarp.org/travel/travel-tips/safety/info-2021/solo-group-tours-gain-popularity.html
-    image: /assets/img/writing/solo-travelers-groups.jpg
+    - title: Solo Group Travel
+      publisher: AARP
+      link: https://www.aarp.org/travel/travel-tips/safety/info-2021/solo-group-tours-gain-popularity.html
+      image: /assets/img/writing/solo-travelers-groups.jpg
 
-  - title: Gentle Winter
-    publisher: Country Magazine
-    link: /assets/pdf/gentle-winter-country.pdf
-    image: /assets/img/writing/gentle-winter-country.jpg
+    - title: Gentle Winter
+      publisher: Country Magazine
+      link: /assets/pdf/gentle-winter-country.pdf
+      image: /assets/img/writing/gentle-winter-country.jpg
 
-  - title: Painted Hills
-    publisher: Korean Air’s MorningCalm
-    link: /assets/pdf/Painted-Hills_Korean-Air.pdf
-    image: /assets/img/writing/gibbs-gardens.png
+    - title: Painted Hills
+      publisher: Korean Air’s MorningCalm
+      link: /assets/pdf/Painted-Hills_Korean-Air.pdf
+      image: /assets/img/writing/gibbs-gardens.png
 
-  - title: Silicon Valley Guide to Nature
-    publisher: MarketWatch
-    link: https://www.marketwatch.com/story/your-silicon-valley-guide-to-nature-and-the-outdoors-2019-07-02
-    image: /assets/img/writing/silicon-valley-guide-to-nature.jpg
+    - title: Silicon Valley Guide to Nature
+      publisher: MarketWatch
+      link: https://www.marketwatch.com/story/your-silicon-valley-guide-to-nature-and-the-outdoors-2019-07-02
+      image: /assets/img/writing/silicon-valley-guide-to-nature.jpg
 
-  - title: How to Plan the Perfect Road Trip
-    publisher: Fodor’s
-    link: https://www.fodors.com/news/photos/how-to-plan-the-perfect-road-trip
-    image: /assets/img/writing/plan-perfect-road-trip.jpg
+    - title: How to Plan the Perfect Road Trip
+      publisher: Fodor’s
+      link: https://www.fodors.com/news/photos/how-to-plan-the-perfect-road-trip
+      image: /assets/img/writing/plan-perfect-road-trip.jpg
 
-  - title: America's Castles
-    publisher: SmarterTravel
-    link: https://www.smartertravel.com/americas-most-extravagant-castles-and-villas/
-    image: /assets/img/writing/americas-castle.jpg
+    - title: America's Castles
+      publisher: SmarterTravel
+      link: https://www.smartertravel.com/americas-most-extravagant-castles-and-villas/
+      image: /assets/img/writing/americas-castle.jpg
 
-  - title: Georgia's Secret Fairy Garden
-    publisher: Roadtrippers Magazine
-    link: https://roadtrippers.com/magazine/sleepy-hollow-georgia
-    image: /assets/img/writing/georgias-secret-fairy-garden.jpg
+    - title: Georgia's Secret Fairy Garden
+      publisher: Roadtrippers Magazine
+      link: https://roadtrippers.com/magazine/sleepy-hollow-georgia
+      image: /assets/img/writing/georgias-secret-fairy-garden.jpg
 
-  - title: Best Small Towns in Florida
-    publisher: TripSavvy
-    link: https://www.tripsavvy.com/best-small-towns-in-florida-5084355
-    image: /assets/img/writing/best-small-towns-fl.jpg
+    - title: Best Small Towns in Florida
+      publisher: TripSavvy
+      link: https://www.tripsavvy.com/best-small-towns-in-florida-5084355
+      image: /assets/img/writing/best-small-towns-fl.jpg
 
-  - title: Weird Roadside Attractions
-    publisher: Thrillist
-    link: https://www.thrillist.com/travel/nation/weird-roadside-attractions-strangest-road-trip-sights
-    image: /assets/img/writing/weirdest-roadside-attractions.jpeg
+    - title: Weird Roadside Attractions
+      publisher: Thrillist
+      link: https://www.thrillist.com/travel/nation/weird-roadside-attractions-strangest-road-trip-sights
+      image: /assets/img/writing/weirdest-roadside-attractions.jpeg
 
-  - title: From Paris to Atlanta with Love
-    publisher: USA Today GoEscape
-    link: https://issuu.com/studiogannett/docs/goescape_southeast_cover/42
-    image: /assets/img/writing/paris-to-atl.JPG
+    - title: From Paris to Atlanta with Love
+      publisher: USA Today GoEscape
+      link: https://issuu.com/studiogannett/docs/goescape_southeast_cover/42
+      image: /assets/img/writing/paris-to-atl.JPG
 
-  - title: Mom's Guide to<br>Las Vegas
-    publisher: SheKnows
-    link: https://www.sheknows.com/parenting/articles/2136340/where-to-go-in-las-vegas-with-kids/
-    image: /assets/img/writing/guide-to-las-vegas.jpg
+    - title: Mom's Guide to<br>Las Vegas
+      publisher: SheKnows
+      link: https://www.sheknows.com/parenting/articles/2136340/where-to-go-in-las-vegas-with-kids/
+      image: /assets/img/writing/guide-to-las-vegas.jpg
 
-  - title: Tour of Atlanta Temples
-    publisher: AJC
-    link: https://www.ajc.com/entertainment/attractions/tour-atlanta-temples-reveals-array-architectural-wonders/dgTHTSbNZ9mZqGHeoePZ5H/
-    image: /assets/img/writing/tour-of-atlanta-temples.JPG
+    - title: Tour of Atlanta Temples
+      publisher: AJC
+      link: https://www.ajc.com/entertainment/attractions/tour-atlanta-temples-reveals-array-architectural-wonders/dgTHTSbNZ9mZqGHeoePZ5H/
+      image: /assets/img/writing/tour-of-atlanta-temples.JPG
 
-  - title: Budget-Friendly Florida
-    publisher: Cheapism
-    link: https://blog.cheapism.com/cheap-florida-vacations/
-    image: /assets/img/writing/budget-friendly-florida.jpg
+    - title: Budget-Friendly Florida
+      publisher: Cheapism
+      link: https://blog.cheapism.com/cheap-florida-vacations/
+      image: /assets/img/writing/budget-friendly-florida.jpg
 
-  - title: Botanical Gardens You Won’t Believe Are Free
-    publisher: Fodor’s
-    link: https://www.fodors.com/news/photos/stunning-botanical-gardens-you-wont-believe-are-free
-    image: /assets/img/writing/botanical-gardens.jpg
+    - title: Botanical Gardens You Won’t Believe Are Free
+      publisher: Fodor’s
+      link: https://www.fodors.com/news/photos/stunning-botanical-gardens-you-wont-believe-are-free
+      image: /assets/img/writing/botanical-gardens.jpg
 
-  - title: 8 Waterfalls in the Middle of Town
-    publisher: Livability
-    link: https://livability.com/topics/things-to-do/8-places-with-waterfalls-right-in-the-middle-of-town
-    image: /assets/img/writing/mountour-falls.jpg
+    - title: 8 Waterfalls in the Middle of Town
+      publisher: Livability
+      link: https://livability.com/topics/things-to-do/8-places-with-waterfalls-right-in-the-middle-of-town
+      image: /assets/img/writing/mountour-falls.jpg
 
-  - title: Tips for Travelling with Your Partner
-    publisher: loveEXPLORING
-    link: https://www.loveexploring.com/news/69604/tips-for-travelling-with-your-partner
-    image: /assets/img/writing/travel-with-partner.jpg
+    - title: Tips for Travelling with Your Partner
+      publisher: loveEXPLORING
+      link: https://www.loveexploring.com/news/69604/tips-for-travelling-with-your-partner
+      image: /assets/img/writing/travel-with-partner.jpg
 
-  - title: Florida Gardens
-    publisher: AARP
-    link: https://www.aarp.org/travel/vacation-ideas/outdoors/info-2021/gardens-in-florida.html
-    image: /assets/img/writing/top-12-florida-gardens.jpg
+    - title: Florida Gardens
+      publisher: AARP
+      link: https://www.aarp.org/travel/vacation-ideas/outdoors/info-2021/gardens-in-florida.html
+      image: /assets/img/writing/top-12-florida-gardens.jpg
 
-  - title: Art Island
-    publisher: Country Magazine
-    link: /assets/pdf/art-island-country.pdf
-    image: /assets/img/writing/art-island.jpg
+    - title: Art Island
+      publisher: Country Magazine
+      link: /assets/pdf/art-island-country.pdf
+      image: /assets/img/writing/art-island.jpg
 
 - category: News
   articles:
-  - title: Florida Manatee Deaths Up 20%
-    publisher: The Guardian
-    link: https://www.theguardian.com/us-news/2020/jun/29/manatees-facing-increased-threats-during-the-pandemic
-    image: /assets/img/writing/manatee-in-guardian.png
+    - title: Florida Manatee Deaths Up 20%
+      publisher: The Guardian
+      link: https://www.theguardian.com/us-news/2020/jun/29/manatees-facing-increased-threats-during-the-pandemic
+      image: /assets/img/writing/manatee-in-guardian.png
 
-  - title: Gap Year Advice
-    publisher: Business Insider
-    link: https://www.businessinsider.com/advice-for-students-want-take-gap-year-lucky-i-didnt-2020-6
-    image: /assets/img/writing/gap-year-advice.jpeg
+    - title: Gap Year Advice
+      publisher: Business Insider
+      link: https://www.businessinsider.com/advice-for-students-want-take-gap-year-lucky-i-didnt-2020-6
+      image: /assets/img/writing/gap-year-advice.jpeg
 
-  - title: Best Warrior Competition
-    publisher: Army News
-    link: https://www.army.mil/article/85145/fourteen_battle_for_best_warrior
-    image: /assets/img/writing/best-warrior-competition.jpg
+    - title: Best Warrior Competition
+      publisher: Army News
+      link: https://www.army.mil/article/85145/fourteen_battle_for_best_warrior
+      image: /assets/img/writing/best-warrior-competition.jpg
 
 - category: Lifestyle
   articles:
-  - title: The More, The Merrier
-    publisher: Modern Woman
-    link: https://issuu.com/studiogannett/docs/modern_woman_c5b4e88b5f8a74/94
-    image: /assets/img/writing/the-more-the-merrier.jpeg
+    - title: The More, The Merrier
+      publisher: Modern Woman
+      link: https://issuu.com/studiogannett/docs/modern_woman_c5b4e88b5f8a74/94
+      image: /assets/img/writing/the-more-the-merrier.jpeg
 
-  - title: Pie Shops in Atlanta
-    publisher: Evening Standard
-    link: https://www.standard.co.uk/lifestyle/travel/best-pie-shops-in-atlanta-a4032996.html
-    image: /assets/img/writing/sample-of-pies-at-sway-pie-bar.jpg
+    - title: Pie Shops in Atlanta
+      publisher: Evening Standard
+      link: https://www.standard.co.uk/lifestyle/travel/best-pie-shops-in-atlanta-a4032996.html
+      image: /assets/img/writing/sample-of-pies-at-sway-pie-bar.jpg
 
-  - title: Love and Money
-    publisher: Dough Roller
-    link: https://www.doughroller.net/retirement/resources-to-retire-early/
-    image: /assets/img/writing/love-and-money.jpg
+    - title: Maple Roots
+      publisher: Blue Ridge Country Magazine
+      link: /assets/pdf/mr-maple-blue-ridge-country.pdf
+      image: /assets/img/writing/maple-roots.jpg
 
-  - title: Keto Diet-Friendly Desserts
-    publisher: Wellness Lounge
-    link: /assets/pdf/Keto-Friendly-Desserts_by-Cheryl-Rodewig.pdf
-    image: /assets/img/writing/keto-friendly-recipes.jpg
+    - title: Keto Diet-Friendly Desserts
+      publisher: Wellness Lounge
+      link: /assets/pdf/Keto-Friendly-Desserts_by-Cheryl-Rodewig.pdf
+      image: /assets/img/writing/keto-friendly-recipes.jpg
 
-  - title: Why Tampa Is a Best Place To Live
-    publisher: Livability
-    link: https://livability.com/fl/tampa/where-to-live-now/why-tampa-fl-is-a-top-100-best-place-to-live/
-    image: /assets/img/writing/tampa-best-place-to-live.jpg
+    - title: Why Tampa Is a Best Place To Live
+      publisher: Livability
+      link: https://livability.com/fl/tampa/where-to-live-now/why-tampa-fl-is-a-top-100-best-place-to-live/
+      image: /assets/img/writing/tampa-best-place-to-live.jpg
 
-  - title: Maple Roots
-    publisher: Blue Ridge Country Magazine
-    link: /assets/pdf/mr-maple-blue-ridge-country.pdf
-    image: /assets/img/writing/maple-roots.jpg
+    - title: Resources To Help You Retire Early
+      publisher: Dough Roller
+      link: https://www.doughroller.net/retirement/resources-to-retire-early/
+      image: /assets/img/writing/love-and-money.jpg
 
-  - title: Pilau Recipe
-    publisher: Edible Orlando
-    link: /assets/pdf/Pilau_Edible-Orlando_Cheryl-Rodewig.pdf
-    image: /assets/img/writing/pilau-recipe.JPG
+    - title: Pilau Recipe
+      publisher: Edible Orlando
+      link: /assets/pdf/Pilau_Edible-Orlando_Cheryl-Rodewig.pdf
+      image: /assets/img/writing/pilau-recipe.JPG
 
-  - title: Cirque du Soleil&#58; KURIOS
-    publisher: GA Followers
-    link: https://www.gafollowers.com/cirque-du-soleil-kurios/
-    image: /assets/img/writing/kurios.jpg
+    - title: Cirque du Soleil&#58; KURIOS
+      publisher: GA Followers
+      link: https://www.gafollowers.com/cirque-du-soleil-kurios/
+      image: /assets/img/writing/kurios.jpg
 
-  - title: El Cajon Rec Squad
-    publisher: Next City
-    link: https://nextcity.org/daily/entry/el-cajon-rec-squad-brings-park-to-people
-    image: /assets/img/writing/el-cajon-rec.jpg
+    - title: El Cajon Rec Squad
+      publisher: Next City
+      link: https://nextcity.org/daily/entry/el-cajon-rec-squad-brings-park-to-people
+      image: /assets/img/writing/el-cajon-rec.jpg
