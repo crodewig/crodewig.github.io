@@ -16,7 +16,7 @@
       image: /assets/img/writing/gentle-winter-country.jpg
 
     - title: Painted Hills
-      publisher: Korean Air’s MorningCalm
+      publisher: Korean Air''s MorningCalm
       link: /assets/pdf/Painted-Hills_Korean-Air.pdf
       image: /assets/img/writing/gibbs-gardens.png
 
@@ -26,7 +26,7 @@
       image: /assets/img/writing/silicon-valley-guide-to-nature.jpg
 
     - title: How to Plan the Perfect Road Trip
-      publisher: Fodor’s
+      publisher: Fodor's
       link: https://www.fodors.com/news/photos/how-to-plan-the-perfect-road-trip
       image: /assets/img/writing/plan-perfect-road-trip.jpg
 
@@ -70,8 +70,8 @@
       link: https://blog.cheapism.com/cheap-florida-vacations/
       image: /assets/img/writing/budget-friendly-florida.jpg
 
-    - title: Botanical Gardens You Won’t Believe Are Free
-      publisher: Fodor’s
+    - title: Botanical Gardens You Won't Believe Are Free
+      publisher: Fodor's
       link: https://www.fodors.com/news/photos/stunning-botanical-gardens-you-wont-believe-are-free
       image: /assets/img/writing/botanical-gardens.jpg
 
@@ -95,29 +95,22 @@
       link: /assets/pdf/art-island-country.pdf
       image: /assets/img/writing/art-island.jpg
 
-- category: News
-  articles:
-    - title: Florida Manatee Deaths Up 20%
-      publisher: The Guardian
-      link: https://www.theguardian.com/us-news/2020/jun/29/manatees-facing-increased-threats-during-the-pandemic
-      image: /assets/img/writing/manatee-in-guardian.png
-
-    - title: Gap Year Advice
-      publisher: Business Insider
-      link: https://www.businessinsider.com/advice-for-students-want-take-gap-year-lucky-i-didnt-2020-6
-      image: /assets/img/writing/gap-year-advice.jpeg
-
-    - title: Best Warrior Competition
-      publisher: Army News
-      link: https://www.army.mil/article/85145/fourteen_battle_for_best_warrior
-      image: /assets/img/writing/best-warrior-competition.jpg
-
 - category: Lifestyle
   articles:
-    - title: The More, The Merrier
+    - title: Orlando Restaurant Guide
+      publisher: The Infatuation
+      link: https://www.theinfatuation.com/orlando/guides/orlando-restaurants
+      image: /assets/img/writing/orlando-restaurant-guide.jpg
+
+    - title: The More,<br>The Merrier
       publisher: Modern Woman
       link: https://issuu.com/studiogannett/docs/modern_woman_c5b4e88b5f8a74/94
       image: /assets/img/writing/the-more-the-merrier.jpeg
+
+    - title: Resources To Help You Retire Early
+      publisher: Dough Roller
+      link: https://www.doughroller.net/retirement/resources-to-retire-early/
+      image: /assets/img/writing/love-and-money.jpg
 
     - title: Pie Shops in Atlanta
       publisher: Evening Standard
@@ -139,11 +132,6 @@
       link: https://livability.com/fl/tampa/where-to-live-now/why-tampa-fl-is-a-top-100-best-place-to-live/
       image: /assets/img/writing/tampa-best-place-to-live.jpg
 
-    - title: Resources To Help You Retire Early
-      publisher: Dough Roller
-      link: https://www.doughroller.net/retirement/resources-to-retire-early/
-      image: /assets/img/writing/love-and-money.jpg
-
     - title: Pilau Recipe
       publisher: Edible Orlando
       link: /assets/pdf/Pilau_Edible-Orlando_Cheryl-Rodewig.pdf
@@ -158,3 +146,20 @@
       publisher: Next City
       link: https://nextcity.org/daily/entry/el-cajon-rec-squad-brings-park-to-people
       image: /assets/img/writing/el-cajon-rec.jpg
+
+- category: News
+  articles:
+    - title: Florida Manatee Deaths Up 20%
+      publisher: The Guardian
+      link: https://www.theguardian.com/us-news/2020/jun/29/manatees-facing-increased-threats-during-the-pandemic
+      image: /assets/img/writing/manatee-in-guardian.png
+
+    - title: Gap Year Advice
+      publisher: Business Insider
+      link: https://www.businessinsider.com/advice-for-students-want-take-gap-year-lucky-i-didnt-2020-6
+      image: /assets/img/writing/gap-year-advice.jpeg
+
+    - title: Best Warrior Competition
+      publisher: Army News
+      link: https://www.army.mil/article/85145/fourteen_battle_for_best_warrior
+      image: /assets/img/writing/best-warrior-competition.jpg
