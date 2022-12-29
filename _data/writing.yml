@@ -1,5 +1,10 @@
 - category: Travel
   articles:
+    - title: Quirky Christmas
+      publisher: Thrillist
+      link: https://www.thrillist.com/travel/nation/unconventional-christmas-celebrations-in-the-us
+      image: /assets/img/writing/quirky-christmas.jpg
+
     - title: Great Estates
       publisher: USA Today GoEscape
       link: https://issuu.com/studiogannett/docs/go_escape_summer_2020/80
