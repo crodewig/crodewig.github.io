@@ -5,15 +5,15 @@
       link: https://www.thrillist.com/travel/nation/unconventional-christmas-celebrations-in-the-us
       image: /assets/img/writing/quirky-christmas.jpg
 
-    - title: Great Estates
-      publisher: USA Today GoEscape
-      link: https://issuu.com/studiogannett/docs/go_escape_summer_2020/80
-      image: /assets/img/writing/great-estates-go-escape.jpg
-
     - title: Solo Group Travel
       publisher: AARP
       link: https://www.aarp.org/travel/travel-tips/safety/info-2021/solo-group-tours-gain-popularity.html
       image: /assets/img/writing/solo-travelers-groups.jpg
+
+    - title: Off-the-Beaten Parks
+      publisher: USA Today Go Escape
+      link: https://issuu.com/studiogannett/docs/go_escape_california___pacific_coast_2020/16
+      image: /assets/img/writing/off-the-beaten-parks.jpg
 
     - title: Gentle Winter
       publisher: Country Magazine
@@ -21,7 +21,7 @@
       image: /assets/img/writing/gentle-winter-country.jpg
 
     - title: Painted Hills
-      publisher: Korean Air's MorningCalm
+      publisher: Korean Air's Morning Calm
       link: /assets/pdf/Painted-Hills_Korean-Air.pdf
       image: /assets/img/writing/gibbs-gardens.png
 
@@ -30,7 +30,7 @@
       link: https://www.marketwatch.com/story/your-silicon-valley-guide-to-nature-and-the-outdoors-2019-07-02
       image: /assets/img/writing/silicon-valley-guide-to-nature.jpg
 
-    - title: How to Plan the Perfect Road Trip
+    - title: How To Plan the Perfect Road Trip
       publisher: Fodor's
       link: https://www.fodors.com/news/photos/how-to-plan-the-perfect-road-trip
       image: /assets/img/writing/plan-perfect-road-trip.jpg
@@ -50,12 +50,12 @@
       link: https://www.tripsavvy.com/best-small-towns-in-florida-5084355
       image: /assets/img/writing/best-small-towns-fl.jpg
 
-    - title: Weird Roadside Attractions
-      publisher: Thrillist
-      link: https://www.thrillist.com/travel/nation/weird-roadside-attractions-strangest-road-trip-sights
-      image: /assets/img/writing/weirdest-roadside-attractions.jpeg
+    - title: Cedar Key
+      publisher: Insider
+      link: https://www.insider.com/cedar-key-florida-what-its-like-photos-2022-8
+      image: /assets/img/writing/cedar-key.jpg
 
-    - title: From Paris to Atlanta with Love
+    - title: From Paris to Atlanta With Love
       publisher: USA Today GoEscape
       link: https://issuu.com/studiogannett/docs/goescape_southeast_cover/42
       image: /assets/img/writing/paris-to-atl.JPG
@@ -75,17 +75,12 @@
       link: https://blog.cheapism.com/cheap-florida-vacations/
       image: /assets/img/writing/budget-friendly-florida.jpg
 
-    - title: Botanical Gardens You Won't Believe Are Free
+    - title: Gardens You Won't Believe Are Free
       publisher: Fodor's
       link: https://www.fodors.com/news/photos/stunning-botanical-gardens-you-wont-believe-are-free
       image: /assets/img/writing/botanical-gardens.jpg
 
-    - title: 8 Waterfalls in the Middle of Town
-      publisher: Livability
-      link: https://livability.com/topics/things-to-do/8-places-with-waterfalls-right-in-the-middle-of-town
-      image: /assets/img/writing/mountour-falls.jpg
-
-    - title: Tips for Travelling with Your Partner
+    - title: Tips for Travelling With Your Partner
       publisher: loveEXPLORING
       link: https://www.loveexploring.com/news/69604/tips-for-travelling-with-your-partner
       image: /assets/img/writing/travel-with-partner.jpg
@@ -99,6 +94,21 @@
       publisher: Country Magazine
       link: /assets/pdf/art-island-country.pdf
       image: /assets/img/writing/art-island.jpg
+
+    - title: All-Inclusive Resorts for Families
+      publisher: The Expedition
+      link: https://www.theexpedition.com/6-surprising-all-inclusive-resorts-for-families/
+      image: /assets/img/writing/all-inclusive-resorts-for-families.jpeg
+
+    - title: 7 Cities for Cyclists
+      publisher: Livability
+      link: https://livability.com/topics/healthy-places/great-greenways-7-cities-for-cyclists-and-nature-lovers/
+      image: /assets/img/writing/7-cities-for-cyclists.jpg
+
+    - title: Great Estates
+      publisher: USA Today GoEscape
+      link: https://issuu.com/studiogannett/docs/go_escape_summer_2020/80
+      image: /assets/img/writing/great-estates-go-escape.jpg
 
 - category: Lifestyle
   articles:
