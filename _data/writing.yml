@@ -35,10 +35,10 @@
       link: https://www.fodors.com/news/photos/how-to-plan-the-perfect-road-trip
       image: /assets/img/writing/plan-perfect-road-trip.jpg
 
-    - title: America's Castles
-      publisher: SmarterTravel
-      link: https://www.smartertravel.com/americas-most-extravagant-castles-and-villas/
-      image: /assets/img/writing/americas-castle.jpg
+    # - title: America's Castles
+    #   publisher: SmarterTravel
+    #   link: https://www.smartertravel.com/americas-most-extravagant-castles-and-villas/
+    #   image: /assets/img/writing/americas-castle.jpg
 
     - title: Georgia's Secret Fairy Garden
       publisher: Roadtrippers Magazine
