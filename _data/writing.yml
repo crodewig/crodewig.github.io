@@ -25,6 +25,11 @@
       link: /assets/pdf/Painted-Hills_Korean-Air.pdf
       image: /assets/img/writing/gibbs-gardens.png
 
+    - title: Best Atlanta Suburbs
+      publisher: Livability
+      link: https://livability.com/topics/where-to-live-now/the-5-best-atlanta-suburbs/
+      image: /assets/img/writing/best-atl-suburbs.jpg
+
     - title: Silicon Valley Guide to Nature
       publisher: MarketWatch
       link: https://www.marketwatch.com/story/your-silicon-valley-guide-to-nature-and-the-outdoors-2019-07-02
@@ -53,6 +58,16 @@
     - title: Cedar Key
       publisher: Insider
       link: https://www.insider.com/cedar-key-florida-what-its-like-photos-2022-8
+      image: https://placecats.com/350/250
+
+    - title: Searching for the Perfect City
+      publisher: TODAY
+      link: https://www.today.com/life/essay-life/where-should-i-live-remote-work-rcna171033
+      image: /assets/img/writing/perfect-city.jpg
+
+    - title: Castle Gardens in Italy
+      publisher: La Dolce Vigna
+      link: https://www.ladolcevigna.com/blog/most-romantic-castle-gardens-in-italy
       image: /assets/img/writing/cedar-key.jpg
 
     - title: From Paris to Atlanta With Love
