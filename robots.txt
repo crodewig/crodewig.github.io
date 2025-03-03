@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /portfolio/copywriting-seo/experiencefirst-email-1/
+Disallow: /portfolio/copywriting-seo/experiencefirst-email-2/
+Disallow: /portfolio/copywriting-seo/ksu-email/
+
+Sitemap: https://cherylrodewig.com/sitemap.xml
