@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+
+_layouts/post.html
+blog.html
+content-design.html
+index.html
+portfolio.html

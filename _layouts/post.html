@@ -5,7 +5,7 @@
 <body>
   {% include header.html %}
   <main>
-    <article class="container blog-post mt-5 mb-4"">
+    <article class="container blog-post mt-5 mb-4">
       <div class="col-md-8 offset-md-2">
         <h1 class="mt-5 mb-4">{{ page.title }}</h1>
         <p>
@@ -14,7 +14,9 @@
         {{ content}}
         <footer>
           <p class="lighter-gray smaller-text">
+            <!-- prettier-ignore-start -->
             <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time><br>
+            <!-- prettier-ignore-end -->
           </p>
         </footer>
       </div>

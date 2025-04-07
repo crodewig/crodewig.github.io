@@ -4,17 +4,34 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="/">{{ site.title }}</a>
       </div>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar"
-        aria-controls="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar"
+        aria-controls="#navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ml-auto">
           {% for item in site.data.nav %}
-          <li><a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a></li>
+          <li>
+            <a class="nav-item nav-link" href="{{item.link}}"
+              >{{ item.name }}</a
+            >
+          </li>
           {% endfor %}
-          <li class="d-none d-lg-block ml-3"><a href="/contact" class="nav-item navbar-btn btn btn-default">Get in touch</a></li>
-          <li class="d-lg-none"><a href="/contact" class="nav-item nav-link">Contact</a></li>
+          <li class="d-none d-lg-block ml-3">
+            <a href="/contact" class="nav-item navbar-btn btn btn-default"
+              >Get in touch</a
+            >
+          </li>
+          <li class="d-lg-none">
+            <a href="/contact" class="nav-item nav-link">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>

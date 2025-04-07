@@ -16,5 +16,4 @@ Reminiscent of a European pleasure garden, the 300-acre estate showcases waterfa
 
 ![Gibbs Garden](/assets/img/blog/gibbs-garden/Gibbs8.jpg)
 
-
 [0]: http://gibbsgardens.com

@@ -10,7 +10,7 @@ Whether your fancy is gardens or ghosts, beaches or antebellum history, Savannah
 
 Traveling back in time, to somewhere in the mid 18th century, you can see the oldest standing structure in Savannah at the [Wormsloe State Historic Site][0]. The estate of an early Georgia colonist, Wormsloe now features the ruins of the Tabby House, an observation deck, a small museum and a calendar of history-related programs throughout the year.
 
-Don’t miss the grand, wonderfully picturesque  live oak avenue, draped in Spanish Moss, which sets the mood for this stately historic site.
+Don’t miss the grand, wonderfully picturesque live oak avenue, draped in Spanish Moss, which sets the mood for this stately historic site.
 
 ![Historic Savannah](/assets/img/blog/savannah-georgia-history/historic-savannah-2.jpg)
 
@@ -23,7 +23,6 @@ But the height of Southern hospitality is a sumptuous feast, or rather a dainty 
 ![Historic Savannah](/assets/img/blog/savannah-georgia-history/historic-savannah-3.jpg)
 
 The décor is artistic; the food not only attractive but tasty. It also really is a great opportunity to try new teas. I recommend the Red Bush or the Mirabelle.
-
 
 [0]: http://www.gastateparks.org/Wormsloe
 [1]: http://www.savannahriverboat.com

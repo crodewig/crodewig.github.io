@@ -6,28 +6,39 @@ description: I’ve written about travel, finance, environmental issues and more
 
 <section class="container mb-4">
   <p>
-    I’ve written about travel, finance, environmental issues and more for a range of publications, from in-flight
-    magazines to online listicles. Below are a few of my favorites.
+    I’ve written about travel, finance, environmental issues and more for a
+    range of publications, from in-flight magazines to online listicles. Below
+    are a few of my favorites.
   </p>
   <p>
-    Looking for my marketing writing and editing work? <a href="/portfolio/copywriting-seo/">That’s another page</a>.
+    Looking for my marketing writing and editing work?
+    <a href="/portfolio/copywriting-seo/">That’s another page</a>.
   </p>
 </section>
 
 {% for item in site.data.writing %}
 <section class="container text-center mb-5">
-  <h2 class="mx-auto line-title mb-5" id="{{ item.category | downcase | url_encode }}">{{ item.category }}</h2>
+  <h2
+    class="mx-auto line-title mb-5"
+    id="{{ item.category | downcase | url_encode }}"
+  >
+    {{ item.category }}
+  </h2>
   <div class="row row-eq-height">
-    {% for article in item.articles %}
-    {% assign mod3 = forloop.index | modulo: 3 %}
-    {% if forloop.index !=1 and mod3 == 1 %}</div>
-    <div class="row row-eq-height">{% endif %}
+    {% for article in item.articles %} {% assign mod3 = forloop.index | modulo:
+    3 %} {% if forloop.index !=1 and mod3 == 1 %}
+  </div>
+  <div class="row row-eq-height">
+    {% endif %}
     <div class="col-lg-4 mb-4">
       <div class="card h-100">
         <a href="{{ article.link }}" rel="noopener noreferrer" target="_blank">
           <div class="thumbnail">
-            <img class="card-img-top link-img" src="{{ article.image }}"
-              alt="{{ article.title }} - {{ article.publisher }}">
+            <img
+              class="card-img-top link-img"
+              src="{{ article.image }}"
+              alt="{{ article.title }} - {{ article.publisher }}"
+            />
           </div>
           <div class="card-body">
             <h3 class="h4">{{ article.title }}</h3>

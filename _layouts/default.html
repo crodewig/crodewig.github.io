@@ -1,18 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-  {% include header.html %}
-  <main>
-    {% if page.h1 %}
-    <div class="container mt-5 mb-4">
-      <h1 class="mt-5 mb-4 text-center text-lg-left">{{ page.h1 }}</h1>
-    </div>
-    {% endif %}
-    {{ content}}
-  </main>
-  {% include footer.html %}
-</body>
-
+  <body>
+    {% include header.html %}
+    <main>
+      {% if page.h1 %}
+      <div class="container mt-5 mb-4">
+        <h1 class="mt-5 mb-4 text-center text-lg-left">{{ page.h1 }}</h1>
+      </div>
+      {% endif %} {{ content}}
+    </main>
+    {% include footer.html %}
+  </body>
 </html>
