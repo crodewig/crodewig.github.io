@@ -1,3 +1,8 @@
+- client: ldomoo
+  category: Ebook
+  image: /assets/img/copywriting-seo/gaming-ebook.jpg
+  link: /assets/pdf/gaming-ebook.pdf
+
 - client: Hertz
   category: Branded content
   image: /assets/img/copywriting-seo/things-atlanta-top-spots-food-art-entertainment.jpg
@@ -22,11 +27,6 @@
   category: SEO blog post
   image: /assets/img/copywriting-seo/8-reasons-the-luxembourg-gardens-are-the-most-beautiful-in-paris.jpg
   link: https://www.exp1.com/blog/8-reasons-the-luxembourg-gardens-are-the-most-beautiful-in-paris/
-
-- client: ldomoo
-  category: Ebook
-  image: /assets/img/copywriting-seo/gaming-ebook.jpg
-  link: /assets/pdf/gaming-ebook.pdf
 
 - client: Dollar
   category: Branded content
