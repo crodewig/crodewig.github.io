@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /portfolio/copywriting-seo/experiencefirst-email-1/
 Disallow: /portfolio/copywriting-seo/experiencefirst-email-2/
 Disallow: /portfolio/copywriting-seo/ksu-email/
+Disallow: /portfolio/copywriting-seo/hertz-things-to-do-in-atlanta/
 
 Sitemap: https://cherylrodewig.com/sitemap.xml
