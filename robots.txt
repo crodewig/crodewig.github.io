@@ -3,5 +3,6 @@ Disallow: /portfolio/copywriting-seo/experiencefirst-email-1/
 Disallow: /portfolio/copywriting-seo/experiencefirst-email-2/
 Disallow: /portfolio/copywriting-seo/ksu-email/
 Disallow: /portfolio/copywriting-seo/hertz-things-to-do-in-atlanta/
+Disallow: /portfolio/copywriting-seo/hertz-enjoy-a-southern-tradition-by-heading-to-a-state-fair/
 
 Sitemap: https://cherylrodewig.com/sitemap.xml
