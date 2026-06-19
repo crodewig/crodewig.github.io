@@ -1,9 +1,14 @@
 - category: Travel
   articles:
-    - title: Quirky Christmas
+    - title: Giant Trolls
+      publisher: Southern Living
+      link: https://www.southernliving.com/giant-trolls-thomas-dambo-north-carolina-11853989
+      image: /assets/img/writing/mother-troll-at-dix-park-in-raleigh.webp
+
+    - title: Bok Tower
       publisher: Thrillist
-      link: https://www.thrillist.com/travel/nation/unconventional-christmas-celebrations-in-the-us
-      image: /assets/img/writing/quirky-christmas.jpg
+      link: https://www.thrillist.com/travel/nation/visit-bok-tower-gardens-florida
+      image: /assets/img/writing/bok-tower-in-florida.webp
 
     - title: Solo Group Travel
       publisher: AARP
@@ -69,6 +74,11 @@
       publisher: La Dolce Vigna
       link: https://www.ladolcevigna.com/blog/most-romantic-castle-gardens-in-italy
       image: /assets/img/writing/castle-garden-italy.jpg
+
+    - title: Quirky Christmas
+      publisher: Thrillist
+      link: https://www.thrillist.com/travel/nation/unconventional-christmas-celebrations-in-the-us
+      image: /assets/img/writing/quirky-christmas.jpg
 
     - title: From Paris to Atlanta With Love
       publisher: USA Today Go Escape
